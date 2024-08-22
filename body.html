@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Wires</h1>
+        <nav>
+            <button onclick="mostrarBiografia()">Biografía</button>
+            <button onclick="mostrarPracticas()">Prácticas</button>
+            <button onclick="mostrarTrabajoFinal()">Trabajo Final</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="biografia" class="seccion visible">
+            <h2>Biografía</h2>
+            <img src="mi-foto.jpg" alt="Mi Foto">
+            <p>Hola, soy Sergio Andrés Pinzón Castellanos. Nací en Floridablanca, Santander, el 12 de julio del año 2002, y desde pequeño siempre he tenido una pasión enorme por el arte, el diseño y la astronomía. A lo largo de mi vida he tenido la oportunidad de aprender sobre temas que enriquecen mi alma y me ayudan a inspirarme para crear nuevos proyectos en el futuro cuando haya conseguido las habilidades necesarias; me encanta dibujar en mis tiempos libres y en las noche me encanta sacar mi telescopio, disfruto compartiendo mis experiencias y conocimientos con los demás. </p>
+            <p>Mi viaje comenzó en el año 2006 a la edad de cuatro años, donde comencé a estudiar en el Colegio Cooperativo Comfenalco, en el cual pude estudiar hasta el último año de bachillerato. Luego de graduarme pude hacer parte de una edición de Global Game Jam, aquella vivencia me inspiró a estudiar la carrera que estudio en este momento.</p>
+            <p>Actualmente, estudio ingeniería de sistemas en la Universidad Industrial de Santander, y mis planes a futuro son poder combinar la programación y el desarrollo de software con el arte y el diseño, para crear espacios nuevos de interacción y recreación. Gracias por visitar mi sitio web y por conocer un poco más de mí.</p>
+        </section>
+
+        <section id="practicas" class="seccion">
+            <h2>Práctica 1</h2>
+            <ul>
+                <li><b>Not:</b> Inversor lógico. Invierte el valor de entrada; si la entrada es 1, la salida es 0, y viceversa.</li>
+
+                <li><b>And:</b> Compuerta lógica AND. La salida es 1 solo si todas las entradas son 1; de lo contrario, la salida es 0.</li>
+                
+                <li><b>Or:</b> Compuerta lógica OR. La salida es 1 si al menos una de las entradas es 1; la salida es 0 solo si todas las entradas son 0.</li>
+                
+                <li><b>Xor:</b> Compuerta lógica XOR (OR exclusivo). La salida es 1 si una y solo una de las entradas es 1; si ambas son iguales (0-0 o 1-1), la salida es 0.</li>
+                
+                <li><b>Mux (Multiplexor):</b> Selecciona una de varias entradas y la dirige a la salida, según el valor de las líneas de selección.</li>
+                
+                <li><b>DMux (Demultiplexor):</b> Dirige una única entrada a una de varias salidas, según el valor de las líneas de selección.</li>
+                
+                <li><b>Not16:</b> Conjunto de 16 inversores lógicos (Not). Invierte los valores de cada uno de los 16 bits de entrada de manera independiente.</li>
+                
+                <li><b>And16:</b> Compuerta AND de 16 bits. Realiza una operación AND entre dos palabras de 16 bits de manera bit a bit.</li>
+                
+                <li><b>Or16:</b> Compuerta OR de 16 bits. Realiza una operación OR entre dos palabras de 16 bits de manera bit a bit.</li>
+                
+                <li><b>Mux16:</b> Multiplexor de 16 bits. Selecciona una de dos entradas de 16 bits para dirigirla a la salida, según el valor de la línea de selección.</li>
+                
+                <li><b>Or8Way:</b> Compuerta OR de 8 entradas. La salida es 1 si al menos una de las 8 entradas es 1.</li>
+                
+                <li><b>Mux4Way16:</b> Multiplexor de 4 vías de 16 bits. Selecciona una de cuatro entradas de 16 bits para dirigirla a la salida, según el valor de las líneas de selección.</li>
+                
+                <li><b>Mux8Way16:</b> Multiplexor de 8 vías de 16 bits. Selecciona una de ocho entradas de 16 bits para dirigirla a la salida, según el valor de las líneas de selección.</li>
+                
+                <li><b>DMux4Way:</b> Demultiplexor de 4 vías. Dirige una única entrada a una de cuatro salidas, según el valor de las líneas de selección.</li>
+                
+                <li><b>DMux8Way:</b> Demultiplexor de 8 vías. Dirige una única entrada a una de ocho salidas, según el valor de las líneas de selección.</li>
+            </ul>
+        </section>
+
+        <section id="trabajo-final" class="seccion">
+            <h2>Trabajo Final</h2>
+            <p>...</p>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
